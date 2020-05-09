@@ -3,13 +3,13 @@ server:
   port: 8080
 
 
-#ÈÕÖÁµÈ¼¶
+#æ—¥å¿—
 logging:
   level:
     com.my.shop : debug
     springfox.documentation.spring.web.readers: error
 
-#Êı¾İ¿âÁ¬½Ó
+#æ•°æ®åº“
 spring:
 
   datasource:
