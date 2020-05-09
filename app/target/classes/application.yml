@@ -1,0 +1,19 @@
+server:
+  address: 127.0.0.1
+  port: 8080
+
+
+#�����ȼ�
+logging:
+  level:
+    com.my.shop : debug
+    springfox.documentation.spring.web.readers: error
+
+#���ݿ�����
+spring:
+
+  datasource:
+    driver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&relaxAutoCommit=true&autoReconnect=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL
+    username: root
+    password: admin123
