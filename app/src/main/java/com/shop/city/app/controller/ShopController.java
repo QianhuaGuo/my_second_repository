@@ -1,4 +1,4 @@
-package com.shop.city.app.config.controller;
+package com.shop.city.app.controller;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.GetMapping;

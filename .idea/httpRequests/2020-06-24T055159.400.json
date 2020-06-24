@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-06-24T09:51:59.276+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Required request part 'file' is not present",
+  "path": "/upload"
+}

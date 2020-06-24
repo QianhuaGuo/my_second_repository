@@ -11,9 +11,25 @@ logging:
 
 #数据库
 spring:
-
   datasource:
-    driver: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&relaxAutoCommit=true&autoReconnect=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL
     username: root
     password: admin123
+
+  # 单张照片的最大尺寸
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+#      enabled: false
+
+
+#上传图片
+imagepath:
+  savePath: E:\image\qianhua
+  visitPath: file:\\E:\image\qianhua
+
+
+
+

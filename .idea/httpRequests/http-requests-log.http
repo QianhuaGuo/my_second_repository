@@ -1,0 +1,144 @@
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+<> 2020-06-24T055200.400.json
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+<> 2020-06-24T055159.400.json
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+<> 2020-06-24T055147.400.json
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+<> 2020-06-24T055123.400.json
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+<> 2020-06-24T055056.400.json
+
+###
+
+POST http://localhost:8080/upload
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+<> 2020-06-24T055027.400.json
+
+###
+
