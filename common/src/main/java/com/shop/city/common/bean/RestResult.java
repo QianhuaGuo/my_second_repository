@@ -17,7 +17,7 @@ public class RestResult<T> {
     private String message;
 
     @JsonProperty("data")
-    private T Object;
+    private T object;
 
     public static RestResultBuilder SUCCESS(){
         return RestResult.builder().code(200).message("操作成功");

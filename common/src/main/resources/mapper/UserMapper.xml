@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shop.city.common.mapper.UserMapper">
+    <resultMap id="userResultMap" type="com.shop.city.common.pojo.User">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="user_name" jdbcType="VARCHAR" property="userName"/>
+        <result column="age" jdbcType="INTEGER" property="age"/>
+    </resultMap>
+    
+    <sql id="userColumnList">
+        id,user_name,age
+    </sql>
+
+    <select id="getUserAll" resultMap="userResultMap">
+        SELECT
+        <include refid="userColumnList"/>
+        FROM user
+    </select>
+</mapper>

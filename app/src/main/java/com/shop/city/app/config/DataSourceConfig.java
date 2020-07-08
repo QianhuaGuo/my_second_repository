@@ -19,20 +19,20 @@ public class DataSourceConfig {
 
     @Bean
     public DataSource getDataSource() throws Exception{
-        DruidDataSource dataSource = new DruidDataSource();
-        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf8&relaxAutoCommit=true&autoReconnect=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL");
-        dataSource.setUsername("root");
-        dataSource.setPassword("admin123");
-        return dataSource;
+//        DruidDataSource dataSource = new DruidDataSource();
+//        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+//        dataSource.setUrl("jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&relaxAutoCommit=true&autoReconnect=true&allowMultiQueries=true&useSSL=false&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL");
+//        dataSource.setUsername("root");
+//        dataSource.setPassword("adminroot123");
+//        return dataSource;
 
 
-//        Properties props = new Properties();
-//        props.setProperty("driver",env.getProperty("spring.datasource.driver"));
-//        props.setProperty("url",env.getProperty("spring.datasource.url"));
-//        props.setProperty("username",env.getProperty("spring.datasource.username"));
-//        props.setProperty("password",env.getProperty("spring.datasource.password"));
-//
-//        return DruidDataSourceFactory.createDataSource(props);
+        Properties props = new Properties();
+        props.put("driverClassName", env.getProperty("spring.datasource.driver-class-name"));
+        props.put("url",env.getProperty("spring.datasource.url"));
+        props.put("username",env.getProperty("spring.datasource.username"));
+        props.put("password",env.getProperty("spring.datasource.password"));
+
+        return DruidDataSourceFactory.createDataSource(props);
     }
 }

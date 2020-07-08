@@ -31,6 +31,6 @@ public class UploadController {
             return RestResult.ERROR_PARAMS().message("图片不能为空").build();
         }
         String visitPath = uploadService.upload(file);
-        return RestResult.SUCCESS().Object(visitPath).build();
+        return RestResult.SUCCESS().object(visitPath).build();
     }
 }
