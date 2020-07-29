@@ -23,6 +23,8 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${log.path}/erp-info-%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
             <maxFileSize>10MB</maxFileSize><!--单个文件最大为10MB-->
+            <!--日志文件保留天数-->
+            <maxHistory>1</maxHistory>
         </rollingPolicy>
         <append>true</append>
         <encoder>
@@ -41,6 +43,8 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <fileNamePattern>${log.path}/erp-error-%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
             <maxFileSize>10MB</maxFileSize><!--单个文件最大为10MB-->
+            <!--日志文件保留天数-->
+            <maxHistory>1</maxHistory>
         </rollingPolicy>
         <append>true</append>
         <encoder>
