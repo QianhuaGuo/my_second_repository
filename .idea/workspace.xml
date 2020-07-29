@@ -116,7 +116,7 @@
         <counts>
           <entry key="cell" value="6" />
           <entry key="java" value="4519" />
-          <entry key="xml" value="462" />
+          <entry key="xml" value="466" />
           <entry key="yml" value="243" />
         </counts>
       </usages-collector>
@@ -125,7 +125,7 @@
           <entry key="JAVA" value="4519" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="6" />
-          <entry key="XML" value="460" />
+          <entry key="XML" value="464" />
           <entry key="YAML" value="243" />
         </counts>
       </usages-collector>
@@ -170,8 +170,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/resources/logback.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+            <state relative-caret-position="420">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -227,7 +227,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/shop/city/app/config/DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/shop/city/app/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/shop/city/common/utils/ChineseCasePY.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/shop/city/common/enumtest/SpaceShip.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/shop/city/common/mybatis/IntEnum.java" />
@@ -238,6 +237,7 @@
         <option value="$PROJECT_DIR$/common/src/main/java/com/shop/city/common/bean/Deme.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/com/shop/city/common/bean/Testddd.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -260,7 +260,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-59" />
     <option name="y" value="3" />
     <option name="width" value="1139" />
@@ -296,185 +296,6 @@
               <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
               <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="enumtest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myl_shop_city" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myl_shop_city" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -492,7 +313,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595992978436" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596000972765" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -680,18 +501,17 @@
       <workItem from="1594706781369" duration="27294000" />
       <workItem from="1595398237763" duration="1750000" />
       <workItem from="1595509571042" duration="1102000" />
-      <workItem from="1595988368800" duration="3136000" />
+      <workItem from="1595988368800" duration="3840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109992000" />
+    <option name="totallyTimeSpent" value="110696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -703,13 +523,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27548808" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37960956" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6475054" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.077006504" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.3286334" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.19956616" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.335141" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.34815618" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -1132,8 +952,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/resources/logback.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+        <state relative-caret-position="420">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
