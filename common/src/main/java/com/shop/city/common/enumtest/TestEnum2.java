@@ -20,13 +20,13 @@ public enum TestEnum2 implements IntEnum {
         return null;
     }
 
-//    public static void main(String[] args) {
-//        for (TestEnum2 t2 : TestEnum2.values()){
-//            System.out.println(t2);
+    public static void main(String[] args) {
+        for (TestEnum2 t2 : TestEnum2.values()){
+            System.out.println(t2.toString().getClass());
 //            System.out.println(t2.value);
-//        }
-//
-//    }
+        }
+
+    }
 
     @Override
     public int getIntValue() {
