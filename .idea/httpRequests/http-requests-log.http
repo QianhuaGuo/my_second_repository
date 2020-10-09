@@ -1,3 +1,79 @@
+GET http://localhost:8823/user/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-09T030214.200.json
+
+###
+
+GET http://localhost:8823/user/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-09T030119.200.json
+
+###
+
+GET http://localhost:8823/user/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-09T025923.200.json
+
+###
+
+GET http://localhost:8823/user/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-09T025857.200.json
+
+###
+
+GET http://localhost:8823/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+<> 2020-10-09T025751.404.json
+
+###
+
+GET http://localhost:8823/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+GET http://localhost:8823/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
+POST http://localhost:8080/getUserAll
+Accept: */*
+Cache-Control: no-cache
+
+--null
+
+
+< E:\image\qianhua\1.png
+--null--
+
+###
+
 POST http://localhost:8080/upload
 Accept: */*
 Cache-Control: no-cache

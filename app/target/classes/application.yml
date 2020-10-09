@@ -34,5 +34,10 @@ imagepath:
   visitPath: file:\\E:\image\qianhua
 
 
+#自定义属性值
+mylist:
+  list1: 1,2,3,4,5
+
+
 
 
