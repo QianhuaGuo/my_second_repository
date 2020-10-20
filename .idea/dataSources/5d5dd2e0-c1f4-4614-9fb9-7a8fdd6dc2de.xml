@@ -912,7 +912,7 @@
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="229" parent="227" name="name">
+    <column id="229" parent="227" name="user_name">
       <Position>2</Position>
       <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
@@ -922,7 +922,13 @@
       <DataType>int(10)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="231" parent="227" name="PRIMARY">
+    <column id="231" parent="227" name="student_id">
+      <Position>4</Position>
+      <DataType>int(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="232" parent="227" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>

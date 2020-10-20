@@ -22,10 +22,12 @@ public enum TestEnum2 implements IntEnum {
 
     public static void main(String[] args) {
         for (TestEnum2 t2 : TestEnum2.values()){
-            System.out.println(t2.toString().getClass());
+//            System.out.println(t2.toString().getClass());
 //            System.out.println(t2.value);
         }
-
+        TestEnum2 testEnum2 = TestEnum2.valueOf(1);
+//        System.out.println(testEnum2.getIntValue());
+        System.out.println(testEnum2);
     }
 
     @Override
