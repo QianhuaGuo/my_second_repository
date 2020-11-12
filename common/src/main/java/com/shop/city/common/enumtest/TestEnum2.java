@@ -26,7 +26,7 @@ public enum TestEnum2 implements IntEnum {
 //            System.out.println(t2.value);
         }
         TestEnum2 testEnum2 = TestEnum2.valueOf(1);
-//        System.out.println(testEnum2.getIntValue());
+        System.out.println(testEnum2.getIntValue());
         System.out.println(testEnum2);
     }
 

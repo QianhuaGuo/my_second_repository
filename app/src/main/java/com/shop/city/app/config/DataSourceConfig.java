@@ -1,14 +1,17 @@
 package com.shop.city.app.config;
 
-import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.pool.DruidDataSourceFactory;
-import com.mysql.jdbc.Driver;
+import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSessionFactory;
+import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
+import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
+import java.net.URL;
 import java.util.Properties;
 
 @Configuration
@@ -34,5 +37,14 @@ public class DataSourceConfig {
         props.put("password",env.getProperty("spring.datasource.password"));
 
         return DruidDataSourceFactory.createDataSource(props);
+    }
+
+    @Bean
+    public SqlSessionFactory sqlSessionFactory() throws Exception{
+        SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
+        factoryBean.setDataSource(getDataSource());
+        PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
+        factoryBean.setMapperLocations(resolver.getResource("classpath*:mapper/*"));
+        return factoryBean.getObject();
     }
 }

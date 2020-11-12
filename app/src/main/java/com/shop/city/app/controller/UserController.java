@@ -5,6 +5,7 @@ import com.shop.city.common.pojo.User;
 import com.shop.city.common.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
+import org.apache.ibatis.io.Resources;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import java.io.InputStream;
+import java.net.URL;
 import java.util.List;
 
 
@@ -44,4 +47,16 @@ public class UserController {
         List<User> list = userService.getUserAll();
         return RestResult.SUCCESS().object(list).build();
     }
+
+//    public static void main(String[] args) {
+//        try{
+//            URL url = Resources.getResourceURL("logback.xml");
+//            System.out.println(url.toString());
+////            InputStream resourceAsStream = Resources.getResourceAsStream("logback.xml");
+////            System.out.println(resourceAsStream.toString());
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//    }
 }
