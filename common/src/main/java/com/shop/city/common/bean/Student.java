@@ -1,11 +1,10 @@
 package com.shop.city.common.bean;
 
 import lombok.Data;
+import org.apache.commons.collections.CollectionUtils;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeSet;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
 
 import static java.util.Comparator.comparing;
@@ -20,6 +19,9 @@ public class Student {
     private int score;
     private int studentId;
 
+    public Student(){
+
+    }
     public Student(int id, String name, int score) {
         this.id = id;
         this.name = name;
@@ -64,28 +66,58 @@ public class Student {
         ss.add("ss");
         a = ss.stream().distinct().collect(Collectors.toList());
         for (String s: a){
-            System.out.println("s:"+s);
+//            System.out.println("s:"+s);
         }
+        ss.forEach(x->{
+//            System.out.println("aaaa"+x);
+        });
 
-//        Map<Integer,List<Student>> co = students.stream().collect(Collectors.groupingBy(Student::getId));
+        Map<Integer,List<Student>> co = students.stream().collect(Collectors.groupingBy(Student::getId));
+
+        Map<String,List<Student>> coo = students.stream().collect(Collectors.groupingBy(Student::getName));
+
 //
-//        Map<Integer,Integer> ii = students.stream().collect(Collectors.groupingBy(Student::getId,Collectors.summingInt(Student::getScore)));
+        Map<Integer,Integer> ii = students.stream().collect(Collectors.groupingBy(Student::getId,Collectors.summingInt(Student::getScore)));
 //
 //        //map.keySet().forEach
-//        for (Integer key : co.keySet()) {
-//            System.out.println("map.get(" + key + ") = " + co.get(key));
-//        }
+        for (Integer key : co.keySet()) {
+            System.out.println("map.get(" + key + ") = " + co.get(key));
+        }
 //
-//        //map.entrySet().forEach
-//        for (Map.Entry<Integer, List<Student>> integerListEntry : co.entrySet()) {
+        List<Student> s1 = new ArrayList<>();
+
+        Map<String,String> mm = new ConcurrentHashMap<>();
+        //map.entrySet().forEach
+        for (Map.Entry<Integer, List<Student>> integerListEntry : co.entrySet()) {
+            List<Student> value = integerListEntry.getValue();
+            Student student = new Student();
+            if (!CollectionUtils.isEmpty(value)){
+                student.setId(value.get(0).getId());
+                student.setName(value.get(0).getName());
+                student.setStudentId(value.get(0).getStudentId());
+                int s = 0;
+                for (Student student1 : value){
+                    s+=student1.getScore();
+                }
+                student.setScore(s);
+            }
+            s1.add(student);
 //            System.out.println("map.get(" + integerListEntry + ") = " + co.get(integerListEntry));
-//        }
+        }
+        for (Student student : s1){
+//            System.out.println(student);
+        }
+
 //
 //        //map.values().forEach
 //        for (List<Student> value : co.values()) {
 //            System.out.println("value:" + value);
 //        }
 
+
+        Map<String,Object> h = new Hashtable<>();
+        Map<String,Object> m = new HashMap<>();
+        Map<String,Object> c = new ConcurrentHashMap<>();
 
 
 

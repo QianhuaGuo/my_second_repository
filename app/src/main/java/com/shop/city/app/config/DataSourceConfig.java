@@ -5,6 +5,7 @@ import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.couchbase.CouchbaseProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
@@ -36,6 +37,8 @@ public class DataSourceConfig {
         props.put("username",env.getProperty("spring.datasource.username"));
         props.put("password",env.getProperty("spring.datasource.password"));
 
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~"+env.getProperty("mybatis.mapper-locations"));
+
         return DruidDataSourceFactory.createDataSource(props);
     }
 
@@ -44,7 +47,7 @@ public class DataSourceConfig {
         SqlSessionFactoryBean factoryBean = new SqlSessionFactoryBean();
         factoryBean.setDataSource(getDataSource());
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        factoryBean.setMapperLocations(resolver.getResource("classpath*:mapper/*"));
+        factoryBean.setMapperLocations(resolver.getResources(env.getProperty("mybatis.mapper-locations")));
         return factoryBean.getObject();
     }
 }

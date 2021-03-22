@@ -1,0 +1,16 @@
+package com.shop.city.common.annotation;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * @Author: Watermelon
+ * @Date: 2021/1/20 15:46
+ */
+@Target({ElementType.FIELD,ElementType.TYPE})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface DBTable {
+    public String name() default "";
+}

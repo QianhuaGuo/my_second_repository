@@ -1,11 +1,14 @@
 package com.shop.city.app.controller;
 
 import com.shop.city.common.bean.RestResult;
+import com.shop.city.common.mapper.UserMapper;
 import com.shop.city.common.pojo.User;
 import com.shop.city.common.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,8 +32,11 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @Value("${mylist.list1}")
-    private String[] arr1;
+    @Autowired
+    private SqlSessionFactory sqlSessionFactory;
+
+//    @Value("${mylist.list1}")
+////    private String[] arr1;
 
     @ApiOperation(value = "查询所有人员",notes = "查询所有人员",produces = "application/json")
     @ApiResponse(code = 200, message = "成功")
@@ -41,22 +47,11 @@ public class UserController {
         System.out.println(httpServletRequest.getServletPath());
         System.out.println(httpServletRequest.getRequestURI());
         System.out.println(httpServletRequest.getRequestURL());
-        for (int i = 0;i<arr1.length;i++){
-            logger.info("this is:"+arr1[i]);
-        }
+//        for (int i = 0;i<arr1.length;i++){
+//            logger.info("this is:"+arr1[i]);
+//        }
         List<User> list = userService.getUserAll();
         return RestResult.SUCCESS().object(list).build();
     }
 
-//    public static void main(String[] args) {
-//        try{
-//            URL url = Resources.getResourceURL("logback.xml");
-//            System.out.println(url.toString());
-////            InputStream resourceAsStream = Resources.getResourceAsStream("logback.xml");
-////            System.out.println(resourceAsStream.toString());
-//        }catch (Exception e){
-//            e.printStackTrace();
-//        }
-//
-//    }
 }

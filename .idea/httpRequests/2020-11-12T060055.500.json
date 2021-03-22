@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-11-12T10:00:55.772+0000",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Invalid bound statement (not found): com.shop.city.common.mapper.UserMapper.getUserAll",
+  "path": "/user/getUserAll"
+}
