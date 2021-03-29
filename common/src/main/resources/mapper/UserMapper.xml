@@ -8,12 +8,18 @@
     </resultMap>
     
     <sql id="userColumnList">
-        id,user_name,age
+        id,user_name,age,birth
     </sql>
 
     <select id="getUserAll" resultMap="userResultMap">
         SELECT
         <include refid="userColumnList"/>
         FROM user
+    </select>
+
+    <select id="add" parameterType="com.shop.city.common.pojo.User">
+        insert  into  user (id,user_name,age,student_id,birth) values (
+        #{id},#{userName},#{age},#{studentId},#{birth}
+        )
     </select>
 </mapper>

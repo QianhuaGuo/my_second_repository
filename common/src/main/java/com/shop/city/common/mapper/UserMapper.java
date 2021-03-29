@@ -7,4 +7,6 @@ import java.util.List;
 @Mapper
 public interface UserMapper {
     List<User> getUserAll();
+
+    void add(User user);
 }
